@@ -31,7 +31,7 @@ public class DisplayEditExpenseDropdownServlet extends HttpServlet {
 			throws ServletException, IOException {
 		PrintWriter out = response.getWriter();
 		
-		
+		//changes
 
 		HTMLUtil.generateHeaderAndLeftFrame(out);
 		List<Expense> expenses = ferService.getExpenses();

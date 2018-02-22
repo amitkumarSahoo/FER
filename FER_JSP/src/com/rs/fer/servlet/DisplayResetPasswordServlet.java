@@ -39,6 +39,7 @@ public class DisplayResetPasswordServlet extends HttpServlet {
 		out.println("</td>");
 		out.println("</tr>");
 		out.println("</table>");
+		//amit
 
 		HTMLUtil.generateFooter(out);
 	}
